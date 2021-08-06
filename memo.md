@@ -25,3 +25,12 @@ Public Service
 3. my.js 만들기
    `$(document).ready(function(){}
 
+
+
+
+
+아이디 중복체크
+
+중복체크 안눌렀을때 -> 누른거 확인해야함 -> 전역변수로 count=0놓고 -> count가 1로 올라가지않으면 회원가입 controller로 못가게
+
+중복체크 하고 아이디 수정할때 -> 처음에 중복체크 할때 아이디값을 서버에 저장 -> ajax로 넘겨줄때 그 값을 비교
